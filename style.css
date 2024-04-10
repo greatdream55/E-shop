@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.fundo{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-image: linear-gradient(to bottom, #E64646, #B11D1D, #801414 );
+    height: 800px;
+}
+
+#bandeira{
+    margin-left: 505px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+#titulo{
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.paragrafo-1{
+    padding: 3%;
+    color: white;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+input{
+    width: 22vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: 1px
+}
+
+input::placeholder{
+    padding: 15px;
+}
+
+
+#botao {
+    background-color: white;
+    width: 22vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: 1px;
+    color: black;}
+
+
+#imperadores{
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
