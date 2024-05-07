@@ -3,11 +3,20 @@
     padding: 0%;
 }
 
-.fundo{
+/* Primeira Parte */
+
+.div{
     margin-right: 100px;
     margin-left: 100px;
-    background-image: linear-gradient(to bottom, #E64646, #B11D1D, #801414 );
-    height: 800px;
+    height: 770px;
+}
+
+.mapa{
+    border: 1px solid rgb(6, 165, 152);
+    height: 100%;
+    background-image: url(asserts/mapa.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
 }
 
 #bandeira{
@@ -17,12 +26,14 @@
 }
 
 #titulo{
+    text-shadow: 1px 1px 1px black;
     color: white;
     padding-top: 5%;
     text-align: center;
 }
 
 .paragrafo-1{
+    text-shadow: 1px 1px 1px black;
     padding: 3%;
     color: white;
     text-align: center;
@@ -48,15 +59,16 @@ input::placeholder{
 
 
 #botao {
-    background-color: white;
+    background-color: rgb(163, 9, 9);
     width: 22vw;
     height: 6vh;
     border-radius: 5px;
     border: 1px;
-    color: black;}
+    color: white;}
 
 
 #imperadores{
+    text-shadow: 1px 1px 1px black;
     padding: 1%;
     color: white;
     text-align: center;
@@ -65,4 +77,39 @@ input::placeholder{
 .logo{
     display: flex;
     justify-content: space-around;
+}
+
+/* Conclusão da Primeira Parte */
+
+/* Segunda Parte */
+
+#titulo-2{
+    padding: 4%;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    display: flex;
+}
+.container .content{
+    padding: 45px;
+}
+
+::placeholder{
+    padding: 2%;
+}
+
+/* Conclusão da Segunda Parte */
+
+/* Terceira Parte */
+
+.fundo-3{
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-image: linear-gradient(to right ,#C41616, #820303, #5A0000);
 }
