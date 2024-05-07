@@ -8,11 +8,10 @@
 .div{
     margin-right: 100px;
     margin-left: 100px;
-    height: 770px;
+    height: 800px;
 }
 
 .mapa{
-    border: 1px solid rgb(6, 165, 152);
     height: 100%;
     background-image: url(asserts/mapa.jpg);
     background-repeat: no-repeat;
@@ -105,6 +104,7 @@ input::placeholder{
 /* Terceira Parte */
 
 .fundo-3{
+    height: 300px;
     padding: 8%;
     display: flex;
     align-items: center;
@@ -112,4 +112,85 @@ input::placeholder{
     color: white;
     text-shadow: 1px 1px 1px black;
     background-image: linear-gradient(to right ,#C41616, #820303, #5A0000);
+}
+
+.about{
+    margin-right: 100px;
+}
+
+/* Conclusão da Terceira Parte */
+
+/* Quarta Parte */
+
+.fundo-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    background-image: linear-gradient(to top, #DBC7BE, #CCB9B0, #9B8B84)
+}
+
+.paragrafo-2{
+    padding: 3%;
+}
+
+/* Conclusão da Quarta Parte */
+
+/* Quinta Parte */
+
+.fundo-5{
+    height: 70%;
+    background-image: url(asserts/ceu.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+#titulo-3{
+    padding: 1%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#luffy{
+    border-radius: 50%;
+}
+
+#zoro{
+    border-radius: 50%;
+}
+
+#sanji{
+    border-radius: 50%;
+}
+
+.Mugiwaras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nomes{
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Conclusão da Quinta Parte */
+
+/* Sexta Parte */
+.fundo-6{
+    background-color: #8DA1B9;
+}
+
+/* Conclusão da Sexta Parte */
+
+.fundo-7{
+    display: flex;
+    justify-content:space-between;
+}
+a{
+    margin-top: 3%;
 }
